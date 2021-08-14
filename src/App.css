@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.tabela {
+background-color: #ffffff;
+width: 50px;
+border-radius: 10px;
+justify-content: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formulario {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:column;
+  background-color: rgba(185, 4, 4, 0);
+  text-align: center;
+  width: 500vw; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 2px rgba(17, 11, 11, 0.151);
+  padding: 10px;
 
-.App-link {
-  color: #61dafb;
 }
+.fora {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.topotab {
+  background-color: rgba(0, 60, 255, 0.171);
+  font-size: 100px;
+}
+.btndelete{
+  background-color: transparent;
+  border-color: transparent;
+}
+.btndelete:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  border-radius: 2px;
+}
+.enter {
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(226, 103, 3, 0);
+  margin: 5px;
+}
+.input {
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(226, 103, 3, 0);
+  margin: 5px;
+}
+.tab {
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(226, 103, 3, 0);
+  margin: 5px;
 }
